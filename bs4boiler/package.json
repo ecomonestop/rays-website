@@ -1,0 +1,15 @@
+{
+  "name": "bs4boiler",
+  "version": "1.0.0",
+  "description": "sass test with bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/style.scss css/style.css -w",
+    "compile:sass:bootstrap": "node-sass scss/bootstrap.scss css/bootstrap.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
